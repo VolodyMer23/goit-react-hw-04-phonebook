@@ -11,6 +11,7 @@ import {
 } from './ContactList.styled';
 
 function Contacts({ title, contacts, onDelete }) {
+  console.log(contacts);
   return (
     <ContactsWrapper>
       <ContactsTitle>{title}</ContactsTitle>
